@@ -48,8 +48,9 @@
 	cursor: pointer;
  }
  
- .button:focus,
- .button:hover {
-	background: #f5f4fa;
-	color: var(--button-color);
+ .button{
+	&:hover, &:focus{
+		background: #f5f4fa;
+		color: var(--button-color);
+	}
  }
