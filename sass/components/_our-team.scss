@@ -95,9 +95,8 @@
 	fill: currentColor;
  }
  
- .nav-ul-team .social-link{
-	&:hover,&:focus{
-		background: #2196f3;
-		color: rgba(255, 255, 255, 1);
-	}
+ .nav-ul-team .social-link:hover,
+ .nav-ul-team .social-link:focus {
+	background: #2196f3;
+	color: rgba(255, 255, 255, 1);
  }

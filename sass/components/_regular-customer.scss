@@ -32,9 +32,8 @@
 	color: rgba(175, 177, 184, 1);
  }
  
- .customer__item > .customer__link{
-	&:hover,&:focus{
-		color: var(--button-color);
-		border-color: var(--button-color);
-	}
+ .customer__item > .customer__link:focus,
+ .customer__item > .customer__link:hover {
+	color: var(--button-color);
+	border-color: var(--button-color);
  }
